@@ -1,0 +1,398 @@
+*{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	text-decoration:none;
+	
+}
+
+.container{
+	position:relative;
+	width:100%;
+	border:1px solid black; 
+}
+
+
+.nav{
+	width:100%;
+	height:20vh;
+	border:0px solid black;
+	text-transform:uppercase;
+
+}
+
+.nav h1{
+	text-align:center;
+	margin:2% 0%;
+	font-size:45px;
+	animation-name:nav-h1;
+	animation-duration:3s;
+	animation-fill-mode:forwards;
+	position:relative;
+	transition-property:all;
+	transition-duration:3s;
+}
+
+
+@keyframes nav-h1{
+from{top:-200px;}
+to{top:0px;}
+}
+
+
+
+
+
+
+.nav ul{
+	width:60%;
+	border:0px solid yellow;
+	position:relative;
+	left:25%;
+	top:10%;
+}
+
+.nav ul li{
+	float:left;
+	margin-left:7%;
+	font-size:22px;
+	animation-name:nav-ul-li;
+	animation-duration:3s;
+	animation-fill-mode:forwards;
+	position:relative;
+	transition-property:all;
+	transition-duration:3s;
+}
+
+
+@keyframes nav-ul-li{
+from{top:-200px;}
+to{top:0px;}
+}
+
+
+
+
+
+
+
+
+
+.clear{
+	clear:both;
+}
+
+.nav ul li:hover{
+	transform:scale(1.5);
+	transition-duration:2s;
+}
+
+.fooding{
+	width:50%;
+	height:60vh;
+	border:1px solid green;
+	margin-top:10vh;
+	background-image:url('./images/download.jpg');
+	background-size:100% 100%;
+	border:none;
+	animation-name:food-img-ani;
+	animation-duration:3s;
+	animation-fill-mode:forwards;
+	position:relative;
+	transition-property:all;
+	transition-duration:3s;
+}
+
+
+@keyframes food-img-ani{
+from{left:-600px;}
+to{left:0px;}
+}
+
+
+
+
+.fooding:hover{
+	transform:scale(.9);
+	transition-duration:3s;
+}
+
+
+.food-order{
+	width:50%;
+	height:60vh;
+	position:absolute;
+	top:34vh;
+	right:0;
+	text-align:center;
+}
+
+.food-order h1{
+	text-transform:uppercase;
+	font-size:50px;
+	margin:4% auto;
+	animation-name:food-order-h1;
+	animation-duration:3s;
+	animation-fill-mode:forwards;
+	position:relative;
+	transition-property:all;
+	transition-duration:15s;
+	
+}
+
+
+@keyframes food-order-h1{
+from{left:680px;}
+to{left:0px;}
+}
+
+
+
+
+
+
+.food-order p{
+	font-family: 'Zhi Mang Xing', cursive;
+	width:70%;
+	font-size:20px;
+	color:red;
+	margin:10% auto;
+	animation-name:food-order-p;
+	animation-duration:3s;
+	animation-fill-mode:forwards;
+	position:relative;
+	transition-property:all;
+	transition-duration:5s;
+}
+
+@keyframes food-order-p{
+from{left:680px;}
+to{left:0px;}
+}
+
+
+
+
+
+
+
+.food-order button{
+	width:20%;
+	height:10%;
+	border-radius:20px;
+	border:none;
+	outline-style:none;
+	text-transform:uppercase;
+	font-size:20px;
+	background-image:linear-gradient(to left,teal,transparent);
+}
+
+
+.food-order button:hover{
+	cursor:pointer;
+	background-image:linear-gradient(to right,teal,transparent);
+	color:whitesmoke;
+	box-shadow: 5px -5px 2px 3px black;
+}
+
+.food-order:hover{
+	transform:scale(.9);
+	transition-duration:3s;
+}
+
+
+.products{
+	position:relative;
+	height:120vh;
+}
+
+.products h1{
+	text-align:center;
+	margin:6% 0%;
+	font-size:45px;
+	text-transform:uppercase;
+}
+
+
+.c1{
+	height:200px;
+	width:300px;
+	transition:2s;
+	float:left;
+	margin-bottom:7%;
+	border-radius:20px;
+	margin-left:50px;
+	
+}
+
+
+.c1:nth-child(2){
+	background-image:url("images/image 1.jpg");
+	background-size:100% 100%;
+	transform:rotate(-10deg);
+}
+
+.c1:nth-child(3){
+	background-image:url("images/image 3.jpg");
+	background-size:100% 100%;
+	transform:rotate(10deg);
+}
+
+
+.c1:nth-child(4){
+	background-image:url("images/image 4.jpg");
+	background-size:100% 100%;
+	transform:rotate(-10deg);
+}
+
+
+.c1:nth-child(5){
+	background-image:url("images/image 5.jpg");
+	background-size:100% 100%;
+	transform:rotate(10deg);
+}
+
+
+.c1:nth-child(6){
+	background-image:url("images/image 6.jpg");
+	background-size:100% 100%;
+	transform:rotate(-10deg);
+}
+
+
+.c1:nth-child(7){
+	background-image:url("images/image 7.jpg");
+	background-size:100% 100%;
+	transform:rotate(10deg);
+}
+
+
+.c1:nth-child(8){
+	background-image:url("images/image 8.jpg");
+	background-size:100% 100%;
+	transform:rotate(-10deg);
+}
+
+
+.c1:nth-child(9){
+	background-image:url("images/image 9.jpg");
+	background-size:100% 100%;
+	transform:rotate(10deg);
+}
+
+
+.c1:hover{
+	transform:rotate(0deg);
+	transform:scale(.9);
+	transition-duration:2s;
+}
+
+
+
+.c2:hover{
+	transform:rotate(0deg);
+	transform:scale(.9);
+	transition-duration:2s;
+}
+
+
+.hashir{
+	position:relative;
+	height:850px;
+	width:100%;
+	border:2px solid black;
+	top:-150px;
+}
+
+.a1 h1{
+	position:absolute;
+	left:610px;
+	font-size:45px;
+	text-transform:uppercase;
+}
+
+
+.b1{
+	height:200px;
+	width:300px;
+	transition:2s;
+	float:left;
+	margin-bottom:7%;
+	border-radius:20px;
+	margin-left:50px;
+	margin-top:130px;
+}
+
+.b1:nth-child(2){
+	background-image:url("chef/ch1.jpg");
+	background-size:100% 100%;
+	transform:rotate(-10deg);
+}
+
+.b1:nth-child(3){
+	background-image:url("chef/ch2.jpg");
+	background-size:100% 100%;
+	transform:rotate(10deg);
+}
+
+.b1:nth-child(4){
+	background-image:url("chef/ch3.jpg");
+	background-size:100% 100%;
+	transform:rotate(-10deg);
+}
+
+
+.b1:nth-child(5){
+	background-image:url("chef/ch4.jpg");
+	background-size:100% 100%;
+	transform:rotate(10deg);
+}
+
+
+.b1:nth-child(6){
+	background-image:url("chef/ch5.jpg");
+	background-size:100% 100%;
+	transform:rotate(-10deg);
+}
+
+
+.b1:nth-child(7){
+	background-image:url("chef/ch6.jpg");
+	background-size:100% 100%;
+	transform:rotate(10deg);
+}
+
+
+.b1:nth-child(8){
+	background-image:url("chef/ch7.jpg");
+	background-size:100% 100%;
+	transform:rotate(-10deg);
+}
+
+
+.b1:nth-child(9){
+	background-image:url("chef/ch8.jpg");
+	background-size:100% 100%;
+	transform:rotate(10deg);
+}
+
+.b1:hover{
+	transform:rotate(0deg);
+	transform:scale(.9);
+	transition-duration:2s;
+}
+
+
+
+.b2:hover{
+	transform:rotate(0deg);
+	transform:scale(.9);
+	transition-duration:2s;
+}
+
+
+
+
+
+
+
